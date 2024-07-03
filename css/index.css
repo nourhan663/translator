@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-div {
+  height: 100vh;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+.main {
+  max-width: 600px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+}
+h1 {
+}
+button {
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #b465da 0%,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
+  border-radius: 12px;
+  font-weight: bold;
+  color: white;
+  width: 8em;
+  height: 2.2em;
+  font-size: 1.2em;
+  border: none;
+}
+.lang {
+  width: 15em;
+  height: 2em;
+}
+textarea:focus-visible {
+  outline: none;
+}
