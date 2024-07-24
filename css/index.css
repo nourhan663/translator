@@ -39,3 +39,24 @@ button {
 textarea:focus-visible {
   outline: none;
 }
+
+@media screen and (max-width: 570px) {
+  .main-div {
+    height: 140vh;
+  }
+  .textarea-section {
+    flex-direction: column;
+  }
+  .textarea1,
+  .textarea2 {
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .main {
+    width: 23em;
+  }
+  .lang {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
